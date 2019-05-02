@@ -1,0 +1,9 @@
+<div class="article-container" *ngIf="article">
+  <span>
+    <h1><b>{{ article?.title }}</b></h1>
+  </span>
+  <hr>
+  <br>  
+  <article [innerHtml]="article.body">
+  </article>
+</div>

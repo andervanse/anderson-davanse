@@ -1,0 +1,28 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.article-container {
+    margin: 4rem 10rem 2rem 10rem;
+    text-align: left;
+    font: 300 20px/32px Roboto,"Helvetica Neue",sans-serif;
+}
+
+.article-botton {
+    margin: 4rem 10rem 2rem 10rem;
+    text-align: left;
+    font: 300 20px/32px Roboto,"Helvetica Neue",sans-serif;
+}
+
+@media only screen and (max-width: 658px) {
+    .article-container {
+        margin: 2rem 3rem 1rem 3rem;
+    }
+    
+    .article-botton {
+        margin: 2rem 3rem 1rem 3rem;
+    }    
+}

@@ -1,0 +1,16 @@
+<div *ngIf="article">
+  <div class="article-container">
+    <br>
+    <span>
+      <h1><b>{{ article?.title }}</b></h1>
+    </span>
+    <hr>
+    <br>
+    <article [innerHtml]="article?.body"></article>
+  </div>
+
+  <div class="article-botton">
+      <hr>
+    <a mat-flat-button color="primary" [routerLink]="['../']">Voltar</a>
+  </div>
+</div>

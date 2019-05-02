@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "visible": true,
+        "title": "Quem sou eu?",
+        "summary": "Resumo de quem eu sou e o que faço.",
+        "body": "<p>Olá, meu nome é Anderson e trabalho desenvolvendo soluções em software, adoro aprender e aplicar novas tecnologias para solucionar problemas de forma criativa, me formei em Sistemas de informação no ano de 2008 (não que isso seja muito relavante hoje em dia) e desde 2006 venho trabalhando na àrea de desenvolvimento de sistemas.</p><p>Desenvolvi meu currículum neste formato para tentar estruturar as informações sobre minha vida profissional de uma maneira um pouco mais abrangente do que a de um CV comum, assim posso adicionar mais detalhes que, de outra maneira, iriam gerar muita poluição visual.</p>"
+    },
+    {
+        "id": 2,
+        "visible": true,
+        "title": "Tecnologias que conheço",
+        "summary": "Relação das principais tecnologias que já trabalhei",
+        "body": "<p> <b>Delphi</b> <br> Trabalhei com delphi desde o meu primeiro estágio, em sua maioria, criando aplicações desktop para diversas finalidades, a primeira vez que começei a programar utilizando delphi foi no departamento de TI de uma empresa de telemarketing, utilizávamos para tratamento e importações de informação para a base de dados em SQL-Server.</p> <p> <b>SQL-Server</b> <br> Desde a época (aproximadamente 10 anos atrás) do meu segundo estágio, utilizo SQL-Server como base de dados realizando diversos tipos de consultas SQL, Views e Stored Procedures, não é o único banco de dados que já trabalhei, mas com certeza é o que mais utilizei até hoje.</p> <p> <b>Oracle</b> <br> Apesar de preferir a flexibilidade do SQL-Server em termos de sintaxe (T-SQL), também já trabalhei com Oracle, também utilizo até hoje pois onde trabalho a solução atende ambos SQL-Server e Oracle, portanto já tive que replicar muita coisa do SQL-Server para o Oracle e vice-versa.</p> <p> <b>.NET</b> <br> Utilizo a plataforma .NET quando a situação exige algo além de aplicações Desktop, como windows services, integrações com outros sistemas e aplicações web, começei a estudar para valer quando percebi que precisava de uma plataforma que atendesse outros tipos de aplicações e estava em alta no mercado, em 2014 consegui tirar uma certificação em C# (uma das linguagens utilizadas pelo .NET) e depois em 2016 passei no exame para aplicações Web (ASP.NET MVC), neste tempo ajudei a construir um portal intranet para controle de tarefas da equipe de desenvolvimento e protótipos de aplicações web, também criei serviços do windows para integrações e consumo de web-services.</p><p> <b>Um pouco mais de .NET</b> <br> Para desenvolvimento de aplicações web, utilizo Entity Framework, ASP.NET MVC no front-end e WCF para consumo de web-services, posteriormente WebAPI para aplicações SPA utilizando Angular. no caso de desenvolvimento de windows services utilizamos ADO para comunicação com o banco de dados.</p> <p> <b>Angular 2+</b> <br> A primeira vez que lidei com Angular, este ainda estava na primeira versão e se chamava AngularJS, fiz alguns protótipos que não foram para produção mas eram bastante funcionais, utilizando bootstrap e jQuery para as funcionalidades como paginação no famigerado dataGrid e dependência de alguns componentes utilizados. <br> Hoje faço projetos pessoais em Angular 2+ para não perder as novidades.</p>"
+    },
+    {
+        "id": 3,
+        "visible": true,
+        "title": "Histórico Profissional",
+        "summary": "Descrição das empresas em que já trabalhei",
+        "body": "<p> <b>TMKT</b> &nbsp; <i>agosto de 2007 – agosto de 2008 (1 ano e 1 mês)</i> <br> Neste callcenter trabalhei no setor de TI como estagiário, tive um aprendizado grande em como trabalhar em equipe, se organizar, ajudar e pedir ajuda, com bastante demanda e pouco tempo, aprendi o que era trabalhar em um ambiente agitado, utilizando bastante banco de dados com grandes volumes de informação, ajudei a dar manutenção em sistemas existentes, importando e extraindo informações em diversos formatos. </p><p> <b>BFL</b> &nbsp; <i>julho de 2008 – abril de 2009 (10 meses)</i>  <br> Empresa que presta serviços contábeis e fiscais de pequeno porte, trabalhei com desenvolvimento de sistema existente e criação de novos para tratamento e consolidação de informações fiscais e entrega de obrigações.</p><p> <b>TIVIT</b> &nbsp; <i>março de 2009 – outubro de 2009 (8 meses)</i>  <br> </p>"
+    },    
+    {
+        "id": 4,
+        "visible": false,
+        "title": "Primeiro Estágio",
+        "summary": "Um resumo de como foi o meu primeiro estágio em desenvolvimento de software.",
+        "body": "<p>Lembro do meu primeiro estágio, eu estava aproximadamente no 4º trimestre da faculdade e trabalhando em uma metalúrgica, ganhava apenas o suficiente para pagar a faculdade e meu pai me ajudava com o custo do fretado.<br>Eu estava apreensivo em arrumar um estágio na àrea o quanto antes pois já havia concluído que seria bem mais difícil depois de formado,cheguei a esta conclusão depois de observar que em todas as vagas do painel de ofertas de estágio do CIEE que fica dentro da universidade, exigiam algum tipo de experiência prévia.</p><p>Depois de cadastrar meu currículo em portais específicos para estágios, fiz minha primeira entrevista, era uma empresa metalúrgica que fabricava porcas e ficava perto de casa, uns 15 minutos a pé para ser mais exato.<br>A entrevista se resumiu a uma única conversa com a pessoa que seria meu supervisor direto, pelo que sei ele mesmo estava desenvolvendo um sistema que almejava atender todos os departamentos, isso mesmo, um ERP.<br>Não houve nenhum teste técnico, eu só teria que aprender a linguagem que estavam usando e ajudá-lo no que fosse necessário, a propósito a linguagem era escrita num tal de Delphi e o banco de dados era o Firebird.</p>"
+    }  
+
+]
