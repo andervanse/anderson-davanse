@@ -1,6 +1,5 @@
 <div *ngIf="article">
   <div class="article-container">
-    <br>
     <span>
       <h1><b>{{ article?.title }}</b></h1>
     </span>
@@ -10,7 +9,9 @@
   </div>
 
   <div class="article-botton">
-      <hr>
-    <a mat-flat-button color="primary" [routerLink]="['../']">Voltar</a>
+    <hr>
+    <a mat-raised-button color="primary" [routerLink]="['../']">Voltar</a>
+    &nbsp;
+    <a mat-raised-button color="primary" [routerLink]="['../', article?.nextArticle.id]">{{ article?.nextArticle.title }}</a>
   </div>
 </div>

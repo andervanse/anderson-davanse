@@ -16,5 +16,4 @@ export class AppNavbarComponent {
     );
 
   constructor(private breakpointObserver: BreakpointObserver) {}
-
 }

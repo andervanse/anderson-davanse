@@ -1,0 +1,23 @@
+img {
+    height: 40%;
+    width: 50%;
+}
+
+.color-green {
+    color: green;
+}
+
+@media only screen and (max-width: 758px) {
+    img {
+        height: 40%;
+        width: 100%;            
+    }
+
+    .article-container {
+        margin: 2rem 2rem 1rem 2rem;
+    }
+    
+    .article-botton {
+        margin: 2rem 2rem 1rem 2rem;
+    }    
+}

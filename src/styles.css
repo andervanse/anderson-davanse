@@ -5,6 +5,12 @@ html, body {
     margin: 0px;
 }
 
+a {
+  user-select: none;
+  text-decoration: none;
+  color: #3f51b5;
+}
+
 .article-container {
     margin: 4rem 10rem 2rem 10rem;
     text-align: left;
@@ -17,12 +23,16 @@ html, body {
     font: 300 20px/32px Roboto,"Helvetica Neue",sans-serif;
 }
 
+router-outlet ~ * {
+    position: absolute;
+ }
+
 @media only screen and (max-width: 658px) {
     .article-container {
-        margin: 2rem 3rem 1rem 3rem;
+        margin: 2rem 2rem 1rem 2rem;
     }
     
     .article-botton {
-        margin: 2rem 3rem 1rem 3rem;
+        margin: 2rem 2rem 1rem 2rem;
     }    
 }
