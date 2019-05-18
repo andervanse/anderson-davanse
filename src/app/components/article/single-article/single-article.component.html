@@ -1,4 +1,6 @@
-<div *ngIf="article">
+<div *ngIf="article" id="{{ 'A' + article?.nextArticle.id }}">
+  <br>
+  <br>
   <div class="article-container">
     <span>
       <h1><b>{{ article?.title }}</b></h1>
@@ -12,6 +14,7 @@
     <hr>
     <a mat-raised-button color="primary" [routerLink]="['../']">Voltar</a>
     &nbsp;
-    <a mat-raised-button color="primary" [routerLink]="['../', article?.nextArticle.id]">{{ article?.nextArticle.title }}</a>
+
+    <a *ngIf="article?.nextArticle.visible" mat-raised-button color="primary" [routerLink]="['../', article?.nextArticle.id]" fragment="{{ 'A' + article?.nextArticle.id }}">{{ article?.nextArticle.title }}</a>
   </div>
 </div>

@@ -2,11 +2,10 @@
   <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'" [mode]="(isHandset$ | async) ? 'over' : 'side'">
     <mat-toolbar>
-      <a type="button" mat-button class="mat-button" href="#" routerLink="home" (click)="drawer.toggle()">Home</a>
+      <a type="button" mat-button class="mat-button home-btn" href="#" routerLink="home" (click)="drawer.toggle()">Home</a>
     </mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#" routerLink="articles" (click)="drawer.toggle()">Artigos</a>
-      <a mat-list-item href="#" routerLink="contact" (click)="drawer.toggle()">Contato</a>
+      <app-contact></app-contact>
     </mat-nav-list>
   </mat-sidenav>
 
@@ -24,13 +23,11 @@
         <span>Anderson Davanse</span>
       </div>
       <div class="container-right" *ngIf="!(isHandset$ | async)">
-        <a type="button" mat-button class="mat-button" routerLink="contact">
-          Contato
-        </a>
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
       </div>
     </mat-toolbar>
 
-       <ng-content></ng-content>
+      <ng-content></ng-content>
     
   </mat-sidenav-content>
 </mat-sidenav-container>

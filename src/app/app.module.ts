@@ -18,7 +18,7 @@ import { ArticleService } from './services/article.service';
 import { ArticleListComponent } from './components/article/article-list/article-list.component';
 import { SingleArticleComponent } from './components/article/single-article/single-article.component';
 import { ContactComponent } from './components/contact/contact.component';
-
+import { FragmentPolyfillModule } from "./fragment.polyfill.module";
 
 const appRouter = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -49,7 +49,12 @@ const appRouter = [
     MatButtonModule,
     MatIconModule,
     MatListModule,
-    RouterModule.forRoot(appRouter)
+    FragmentPolyfillModule.forRoot({
+      smooth: true
+    }),
+    RouterModule.forRoot(appRouter, { 
+      useHash: true 
+    })
   ],
   providers: [ArticleService],
   bootstrap: [AppComponent]

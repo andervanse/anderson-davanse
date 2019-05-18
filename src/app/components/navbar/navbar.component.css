@@ -3,11 +3,12 @@
 }
 
 .sidenav {
-  width: 200px;
+  width: 290px;  
 }
 
 .sidenav .mat-toolbar {
   background: inherit;
+  text-align: center;
 }
 
 .mat-toolbar.mat-primary {
@@ -17,8 +18,13 @@
 }
 
 .mat-button {
-  font: 500 20px/32px Roboto,"Helvetica Neue",sans-serif;
+  font: 500 20px/32px Roboto,"Helvetica Neue",sans-serif;  
 }
+
+.mat-button.home-btn {
+  width: 100%;
+}
+
 
 .container-right {
   width: 100%;
