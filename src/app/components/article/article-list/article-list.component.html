@@ -1,20 +1,21 @@
-<div class="article-list">
 
-  <mat-card *ngFor="let article of articles" class="example-card">    
-    <mat-card-header>
-      <mat-card-title>{{ article.title }}</mat-card-title>
-    </mat-card-header>    
-    <img mat-card-image [src]="article.imageUrl"/>
-    <mat-card-content>
-      <p>
-        {{ article.summary }}
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <div class="container-right">
-         <a mat-raised-button color="primary" [routerLink]="['../articles', article.id]">mais...</a>
-      </div>
-    </mat-card-actions>
-  </mat-card>
-  
-</div>
+  <div class="article-list">
+
+    <mat-card *ngFor="let article of articles" class="example-card">
+      <mat-card-header>
+        <mat-card-title>{{ article.title }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image [src]="article.imageUrl" />
+      <mat-card-content>
+        <p>
+          {{ article.summary }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <div class="container-right">
+          <a mat-raised-button color="primary" [routerLink]="['../articles', article.id]">mais...</a>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+
+  </div>

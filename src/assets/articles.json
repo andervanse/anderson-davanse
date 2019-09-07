@@ -4,8 +4,8 @@
         "visible": true,
         "imageUrl": "/assets/img/perfil.png",
         "title": "Quem sou",
-        "summary": "Resumo de quem eu sou e o que faço.",
-        "body": "<p>Olá, meu nome é Anderson e trabalho desenvolvendo soluções em software, gosto de aprender e aplicar novas tecnologias para solucionar problemas de forma criativa, me formei em Sistemas de informação no ano de 2008 e desde 2006 venho trabalhando na àrea de desenvolvimento de sistemas.</p><p>Desenvolvi meu currículum neste formato para tentar estruturar as informações sobre minha vida profissional de uma maneira um pouco mais dinâmica do que a de um currículum comum, assim posso adicionar mais detalhes que, de outra maneira, iriam gerar muita informação em uma só página.<br><br> Para visualizar um resumo você pode ir até meu <a href=\"www.linkedin.com/in/anderson-davanse\">perfil</a> no linkedIn.</p>",
+        "summary": "Resumo de quem eu sou e o que faço",
+        "body": "<p>Olá, meu nome é Anderson e trabalho desenvolvendo soluções em software, gosto de aprender e aplicar novas tecnologias para solucionar problemas de forma criativa, me formei em Sistemas de informação no ano de 2008 e desde 2006 venho trabalhando na àrea de desenvolvimento de sistemas.</p><p>Desenvolvi meu currículum neste formato para tentar estruturar as informações sobre minha vida profissional de uma maneira um pouco mais dinâmica do que a de um currículum comum, assim posso adicionar mais detalhes que, de outra maneira, iriam gerar muita informação em uma só página.<br><br> Para visualizar um resumo você pode ir até meu <a target=\"_BLANK\" href=\"https://www.linkedin.com/in/anderson-davanse\">perfil</a> no linkedIn.</p>",
         "nextArticle": {
             "id": 2,
             "title":"Mais sobre mim",
@@ -17,7 +17,7 @@
         "visible": true,
         "imageUrl": "/assets/img/personalidades.png",
         "title": "Mais sobre mim",
-        "summary": "Resumo de quem eu sou e o que faço.",
+        "summary": "Sobre comportamento e personalidade",
         "body": "  <p>Para facilitar as coisas adiantei uma tarefa que poderia tomar algum tempo, fiz um teste de personalidade e, apesar de não ser cem por cento preciso, acho uma idéia bem prática, imagine se todas as pessoas de um escritório fizessem um, não seria fantástico?<br>  Poderiam deixar o tipo de personalidade em um local visível, como um post-it no gabinete do computador ou até uma lista da relação pessoa x tipo de personalidade em uma página na intranet da empresa. Assim essas pessoas poderiam ser abordadas segundo sua personalidade, bem no mínimo seria uma experiência interessante. <br> Pois bem, eu fiz o teste <a href=\"https://pt.wikipedia.org/wiki/Tipologia_de_Myers-Briggs\" target=\"_blank\">MBTI</a> de personalidade e segundo o teste minha personalidade é <b><a href=\"https://www.16personalities.com/br/personalidade-istj\" target=\"_blank\">ISTJ-T</a></b> ou \"Logístico\".  <br> Se estiver com curiosidade sobre o teste, você pode fazê-lo por este <a ref=\"https://www.16personalities.com/br/teste-de-personalidade\" target=\"_blank\">link</a>.</p>",
         "nextArticle": {
             "id": 3,
